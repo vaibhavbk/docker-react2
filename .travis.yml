@@ -7,4 +7,4 @@ before_install:
     - docker build -t vaibhavbk/docker-react2 -f Dockerfile.dev . 
 
 script:
-    - docker run -e CI=true vaibhavbk/docker-reaact2 npm run test -- --coverage
+    - docker run -e CI=true vaibhavbk/docker-reaact2 npm run test
